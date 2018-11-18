@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">lesson3.task.game</string>
+    <string name="new_game">New game</string>
+    <string name="win">You win!!!</string>
+    <string name="looose">You loose!!!</string>
+    <string name="isOver">Please, start new game</string>
 </resources>

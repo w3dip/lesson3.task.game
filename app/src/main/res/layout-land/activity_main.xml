@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:background="#fff">
 
         <ImageView
@@ -54,7 +54,6 @@
             android:layout_height="165dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:clickable="true"
             android:saveEnabled="true"
@@ -76,8 +75,7 @@
         android:text="@string/new_game"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.116" />
+        app:layout_constraintVertical_bias="0.06" />
 </android.support.constraint.ConstraintLayout>
